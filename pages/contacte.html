@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="../css/style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+    <title>Me&#351te&#351uguri</title>
+</head>
+
+<body>
+    <header>
+        <a href="../index.html">
+            Me&#351te&#351uguri
+            <i class="fab fa-mandalorian logo"></i>
+        </a>
+        
+        <i id="menu-btn" class="fas fa-bars" onclick="show()"> </i>
+
+    </header>
+
+    <div class="page-container">
+
+        <aside id="side-menu">
+            <a href="../index.html">Home
+                <i class="fas fa-home"></i>
+            </a>
+            <a href="ramuri.html">Ramuri
+                <i class="fas fa-code-branch"></i>
+            </a>
+            <a href="contacte.html">Contacte
+                <i class="fas fa-address-book"></i>
+            </a>
+        </aside>
+        <main>
+            <h2 class="title">Contacte</h2>
+            <div class="row">
+                <div class="col-50">
+                    <h3>
+                        Contactează-ne dacă:
+                    </h3>
+                    <ul class="contact-list">
+                        <li>Dorești să adaugi un meșteșug</li>
+                        <li>Ești membru al unui centru de artă populară</li>
+                        <li>Cauți un loc de voluntariat </li>
+                        <li>Ai sugestii/propuneri</li>
+                    </ul>
+
+                </div>
+                <div class="col-50">
+                    <h3>Date de contact </h3>
+                    <ul class="contact-list">
+                        <li> <b>Adresa: </b>str. Igor Vieru 6/2</li>
+                        <li><b>Telefon:</b> 022 000 101</li>
+                        <li><b>Ore de lucru</b> 10.00-17.00</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-50">
+                    <iframe class="map"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2718.559364001397!2d28.885585949999985!3d47.04887664999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40c97ced1ac756eb%3A0x8c680f06a6abc918!2sLiceul%20Constantin%20Negruzzi%2C%20Strada%20Igor%20Vieru%206%2F2%2C%20Chi%C8%99in%C4%83u%2C%20Moldova!5e0!3m2!1sro!2s!4v1641374761907!5m2!1sro!2s"
+                          allowfullscreen="" loading="lazy"></iframe>
+                </div>
+                <div class="col-50">
+                   <div class="contact-form">
+                       <form>
+                           <h3 class="centered"> Lasă un mesaj</h3>
+                           <input type="text" placeholder="Nume" required />
+                           <input type="email" placeholder="Email" required />
+                           <textarea  rows="3" placeholder="Mesaj" required></textarea>
+                           <input type="submit" value="Transmite" />
+                       </form>
+
+
+                   </div> 
+                </div>
+            </div>
+        </main>
+
+    </div>
+    <script src="../js/main.js"></script>
+</body>
+
+</html>
